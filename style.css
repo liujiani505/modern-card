@@ -175,6 +175,21 @@ p{
     width: 100%;
 }
 
+@media screen and (max-width: 520px) {
+    h1{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .swiper-button-next:hover::before,
+    .swiper-button-prev:hover::before{
+        display: none;
+    }
+}
+
 
 
 
